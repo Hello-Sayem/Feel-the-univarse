@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* golobalk woprk start  */
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 10px;
+}
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+/* maine work stert  */
+/* .background-image {
+  height: 100vh;
+  background-image: url(https://edurev.gumlet.io/ApplicationImages/Temp/8743297_4e3167ad-fe3d-4a30-b728-9287095a342a_lg.png?w=360&dpr=2.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+} */
+/* full blog bakground  */
+.blog {
+  width: 700px;
+  background-color: transparent;
+  border: 1px solid #b376c2;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+  height: auto;
+  padding: 50px;
+  border-radius: 15px;
+}
+.blog img {
+  border-radius: 10px;
+}
+/* artical hearder  */
+.blog h2 {
+  color: white;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+/* artical pargraph   */
+.blog p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+/* insite blog  */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* main header  */
+.wrapper h1 {
+  margin: 20px;
+  color: white;
+  font-size: 4rem;
+}
+/* button  */
+.btn {
+  background-color: #461b51;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.background {
+  background-image: url("https://i.pinimg.com/originals/1a/a2/00/1aa2008c04d15f46d38b797cb1452ed4.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
